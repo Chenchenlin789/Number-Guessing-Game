@@ -1,29 +1,30 @@
-div {
-    margin: 28%;
-    padding-left: 16%
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rampart+One&display=swap');
 
-input {
-    padding: 1em;
-    background-color: grey;
-    color: white;
-    border: 1px solid white;
-    border-radius: 8px;
-}
+
 
 html {
-    font-family: sans-serif;
+    font-family: 'Lobster', cursive;
     }
       
 body {
     width: 50%;
     max-width: 800px;
     min-width: 480px;
-    margin: 0 auto;
-    
+    margin: 50px auto;
+    color: whitesmoke;
+    text-align: center;
     }
 
 section {
         padding: 45px;
-        border: 3px solid black;
+        border: 3px solid grey;
+        border-radius: 5px;
+        background: linear-gradient(to left, #000428, #004e92);
+    }
+
+input {
+        padding: 1em;
+        background-color: lightgrey;
+        border: 1px solid white;
+        border-radius: 5px;
     }

@@ -48,7 +48,7 @@ function check() {
         }
     }
     else {
-        document.getElementById('result').innerHTML = 'you lose'
+        document.getElementById('result').innerHTML = 'SORRY! you lost :('
 
     }
 }
